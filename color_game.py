@@ -48,5 +48,5 @@ while color_count<=len(chosen_colors):
                 index_control+=1
             else:
                 color_input_control=0
-                print("You Lose.")
+                print(f"You Lose. {chosen_colors[index_control]} was correct.")
                 break
